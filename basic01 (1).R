@@ -7,7 +7,7 @@ devtools::install_github("Displayr/flipAPI")
 #cola2 = DownloadXLSX("https://wiki.q-researchsoftware.com/images/b/b9/Cola_Discriminant_Functions.xlsx", want.col.names = TRUE, want.row.names = FALSE, sheet = 2, range = "AB2:AC330"
 
 data(mtcars)
-head(mtcars)
+head(mtcars, 10)
  
 
 head(iris)                    
